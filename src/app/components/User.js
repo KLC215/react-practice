@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
 
-class Home extends Component {
+class User extends Component {
 
     render() {
         return (
             <div>
-                <h3>Home</h3>
+                <h3>The User Page</h3>
+                <p>User ID: </p>
             </div>
         );
     }
 
 }
 
-export default Home;
+export default User;
